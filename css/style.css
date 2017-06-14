@@ -4,15 +4,25 @@
 	padding:2px;
 }
 
+a{
+	color: #991A26;
+}
 .nav-justified a{
 	color: #ffffff
 }
-.nav a:focus, a:hover, a:active{
+.nav-justified a:focus, .nav-justified a:hover, .nav-justified a:active{
+	color: #ffffff;
 	background-color: #090909 !important
 }
 
-a{
-	color: #991A26
+.dropdown-menu a:active, .dropdown-menu a:hover, .dropdown-menu a:focus{
+	background: none !important;
+}
+
+
+a:focus, a:hover, a:active{
+	color: #991A26;
+	text-decoration:underline;
 }
 .dit-logo{
 	width:24%;
