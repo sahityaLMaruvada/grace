@@ -3,9 +3,24 @@
 	width: 13%; 
 	padding:2px;
 }
+
+.nav-justified a{
+	color: #ffffff
+}
+.nav a:focus, a:hover, a:active{
+	background-color: #090909 !important
+}
+
+a{
+	color: #991A26
+}
 .dit-logo{
 	width:24%;
 	margin:0 0 20px 58px
+}
+
+.margin-top10{
+	margin-top: 10px
 }
 /*Custom Typography*/
 
